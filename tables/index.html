@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <title>Tabelas HTML</title>
+  </head>
+
+  <body>
+    <h1>Criação de tabelas</h1>
+    <!--tr: table row | LINHA-->
+    <!--td: table datacell | CÉLULA-->
+    <table border="1">
+      <tr>
+        <th>Coluna 1</th>
+        <!--CABEÇALHO | HEADERCELL -->
+        <th>Coluna 2</th>
+        <!--CABEÇALHO | HEADERCELL -->
+      </tr>
+
+      <tr>
+        <!--LINHA 1-->
+        <td>Dado 1</td>
+        <td>Dado 2</td>
+      </tr>
+
+      <tr>
+        <!--LINHA 2-->
+        <td>Dado 3</td>
+        <td>Dado 4</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <h2>Tabelas com Cabeçalhos</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Idade</th>
+          <th>Profissão</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>João</td>
+          <td>35</td>
+          <td>Engenheiro</td>
+        </tr>
+        <tr>
+          <td>Maria</td>
+          <td>25</td>
+          <td>Adovogada</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr />
+
+    <h2>Tabelas com Célula personalizadas</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th colspan="2">Informações Pessoais</th> <!--colspan: tamanho da coluna = 2 então celula ocupará duas colunas-->
+          <th>Contato</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Nome</td>
+          <td>João</td>
+          <td rowspan="2">Telefone: 123456</td> <!--row span: tamnho da célula =2 ocupará duas célula-->
+        </tr>
+
+        <tr>
+          <td>idade:</td>
+          <td>30</td>
+        </tr>
+
+      </tbody>
+
+    </table>
+  </body>
+</html>
