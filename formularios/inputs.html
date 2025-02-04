@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>Inputs HMTL</title>
+  </head>
+
+  <body>
+    <h1>Inputs HTML</h1>
+    <form>
+        <!--Campo de texto-->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br><br><hr><br>
+
+        <!-- Campo de email -->
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" required>
+        <br><br><hr><br>
+
+        <!--campo senha-->
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha" required>
+        <br><br><hr><br>
+
+        <!-- Campo de seleção radio -->
+        <label>Genero:</label>
+        <input type="radio" name="genero" id="masculino" value="M">
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="feminino" value="F">
+        <label for="feminino">Feminino</label>
+        <br><br><hr><br>
+
+        <!-- Campo de seleção Multipla -->
+        <label>Interesses:</label>
+        <input type="checkbox" name="Interesses" id="backend" value="backend">
+        <label for="backend">Back-end</label>
+        <input type="checkbox" name="Interesses" id="frontend" value="frontend">
+        <label for="frontend">Front-end</label>
+        <input type="checkbox" name="Interesses" id="mobile" value="mobile">
+        <label for="mobile">Mobile</label>
+         <br><br><hr><br>
+
+        <!--   Campo de data -->
+        <label for="dataDeNascimento">Data de nascimento</label>
+        <input type="date" name="nascimento" id="dataDeNascimento">
+         <br><br><hr><br>
+
+        <!-- Campo de arquivo (upload) -->
+        <label for="fotoDePerfil">Foto de Perfil:</label>
+        <input type="file" name="avatar" id="fotoDePerfil">
+        <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
