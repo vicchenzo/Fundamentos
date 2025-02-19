@@ -1,0 +1,65 @@
+* {
+    margin: 0; /*Quando trabalhamdos com o zero não precisamos utilizar a unidade de medida*/
+    padding: 0;
+}
+
+header {
+    background-color: #232323;
+    color: #fff;
+    padding: 30px;
+}
+
+section {
+    background-color: #ddd;
+    height: 100px;
+}
+
+.box {
+    border: 1px solid #232323;
+    display: inline-block;
+    margin-top: 20px;
+    width: 75px;
+}
+
+/* unidade fixa */
+.px {
+    height: 10px; /*Por padrão texto tem 16px*/
+}
+
+/*rem: root element*/
+/* Usa como referencia o tamanho da nossa fonte que por padrão é 16px*/
+/* 16px * 3 = 48px*/
+.rem { 
+    height: 3rem;
+}
+
+/* baseado no elemento atual */
+/* Usará como referencia o tamanho do elemento atual e não o elemento raiz */
+/* Quando quisermos algo varie de acordo com o próprio elemento */
+.em {
+    font-size: 20px;
+    padding: 1em;
+}
+
+/* % baseada no elemento pai */
+.prcnt-33 {
+    height: 33%; 
+}
+
+.prcnt-66 {
+    height: 66%;
+}
+
+.prcnt-100 {
+    height: 100%;
+}
+
+/* view port height | view port, área de visualização do navegador */
+.vh {
+    height: 30vh;
+}
+
+/* view port width */
+.vw {
+    width: 50vw;
+}
