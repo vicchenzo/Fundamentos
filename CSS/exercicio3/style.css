@@ -1,0 +1,83 @@
+* {
+    font-family: "Fira Sans", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-bottom: 1px solid;
+    font-size: 1.125rem; /*18px*/
+    padding: 2rem 0; /*vertical / horizontal*/
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: "Lora", serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 3.5rem; /*56px*/
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Primeiro H2 */
+.feature, .catalog, .cta { 
+    font-size: 1.125rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* BOTÃO INSCREVA-SE */
+.cta-button {
+    background-color: #030308;
+    border-radius: 999px;
+    color: #fff;
+    display: block; /*LINHA INTEIRA*/
+    margin: 2rem auto; /*calcula o maior margem possível tanto na esquerda quanto na direita*/
+    padding: 1rem 1.5rem; /*vertical || horizontal*/
+    width: fit-content; /*faz com que caiba exatamente naquela largura*/
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* > significa tudo que estiver dentro da identação */
+.genres > li { 
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+/* seleciona o li filho de genre e o li seguinte ao li */
+.genres > li + li {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+/* o elemento de link esta dentro de li */
+.genre > a,
+.see-more > a {
+    background-color: #43abf6;
+    border-radius: 9999px;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    text-decoration: none; /*tira o sublinhado*/
+    display: inline-block;
+}
+
+.see-more > a {
+    background-color: #030308;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #030308;
+    color: #fff;
+    font-family: "lora", serif;
+    padding: 2rem;
+    text-align: center;
+}
