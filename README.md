@@ -23,4 +23,4 @@ Bem-vindo ao meu repositório de estudos! 🚀 Aqui você encontrará diversos a
 
 1️⃣ Clone o repositório:  
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/vicchenzo/fundamentos.git
