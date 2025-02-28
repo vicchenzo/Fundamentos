@@ -1,0 +1,43 @@
+main {
+    position: relative;
+}
+
+div {
+    padding: 1rem;
+}
+
+.p-static {
+    position: static;
+    height: 5rem; /*professor aumenta  tamanho do primeiro elemento */
+    top: 10rem; /*não acontece nada*/
+    left: 50%; /*não acontece nada*/
+    background-color: #e98081;
+}
+
+.p-relative {
+    position: relative;
+    top: -2rem; /* aqui ele invade o primeiro item */
+    margin: 0 4rem; /* centralizamos o elemento */
+    background-color: #dee87f;
+    opacity: .8;
+}
+
+.p-absolute {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #7f95e9;
+}
+
+.p-fixed {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    background-color: #81e881;
+}
+
+.p-sticky {
+    position: sticky;
+    top: 0;
+    background-color: #e880dd;   
+}
